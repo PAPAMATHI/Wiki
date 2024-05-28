@@ -2,7 +2,7 @@
 title: WikiJs
 description: Un jolie wiki autohébergé !
 published: true
-date: 2024-05-28T12:22:31.558Z
+date: 2024-05-28T12:27:43.829Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T12:00:20.028Z
@@ -101,3 +101,19 @@ Pour l'activer il vous suffit de vous rendre dans la catégorie stockage pour ac
 ![gitwikijs.png](/images/selfhosted/wikijs/gitwikijs.png)
 Une fois activé, il ne vous reste plus qu'à rentrer vos informations de connexions à votre git !
 
+### Generate a new key
+1. Ouvrez le terminal.
+2. Entrez la commande :
+```bash
+ssh-keygen -t rsa -b 4096
+```
+3. Lorsqu'il vous le demande, ne mettez pas de passphrase.
+
+### Add the key to GitHub
+1. Crée un nouveau repo GIT.
+2. Cliquez sur **Settings**.
+3. Cliquez sur **Deploy keys**.
+4. Cliquez sur le bouton **Add deploy key**.
+5. Entrez le nom de la clé (celui de votre choix).
+6. Cochez la case **Allow write access**.
+7. Cliquez sur le bouton **Add Key**.
