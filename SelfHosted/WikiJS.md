@@ -2,7 +2,7 @@
 title: WikiJs
 description: Un jolie wiki autohébergé !
 published: true
-date: 2024-05-28T12:31:57.133Z
+date: 2024-05-28T12:34:52.036Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T12:00:20.028Z
@@ -122,5 +122,11 @@ ssh-keygen -t rsa -b 4096
 1. Allez dans la zone d'administration et cliquez sur **Stockage**.
 2. Cochez la case d'activation de **GIT**.
 3. Entrez les paramètres suivants :
-	- Authentication Type: **ssh**
-  - Repository URI: **Votre adresse SSH du repo**
+	- Authentication Type: **ssh**.
+	- Repository URI: **Votre adresse SSH du repo**.
+	- Branch: **main**.
+	- SSH Private Key Path: **Votre clé SSH PRIVE**.
+	- Username: Vide.
+	- Password: Vide.
+	- Default Author Email: **Votre adresse e-mail GIT**.
+	- Default Author Name: **Votre nom d'utilisateur GIT**.
