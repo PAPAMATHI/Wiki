@@ -2,7 +2,7 @@
 title: WikiJs
 description: Un jolie wiki autohébergé !
 published: true
-date: 2024-05-28T12:29:12.271Z
+date: 2024-05-28T12:31:57.133Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T12:00:20.028Z
@@ -118,4 +118,9 @@ ssh-keygen -t rsa -b 4096
 6. Cochez la case **Allow write access**.
 7. Cliquez sur le bouton **Add Key**.
 
-### 
+### Configurer Wiki.js
+1. Allez dans la zone d'administration et cliquez sur **Stockage**.
+2. Cochez la case d'activation de **GIT**.
+3. Entrez les paramètres suivants :
+	- Authentication Type: **ssh**
+  - Repository URI: **Votre adresse SSH du repo**
