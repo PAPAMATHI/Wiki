@@ -1,8 +1,8 @@
 ---
 title: Guide d'installation Docker
-description: 
+description: Guide d'installation de docker sur machine linux
 published: true
-date: 2024-05-28T11:39:01.703Z
+date: 2024-05-28T12:59:28.798Z
 tags: docker
 editor: markdown
 dateCreated: 2024-05-27T11:18:25.546Z
