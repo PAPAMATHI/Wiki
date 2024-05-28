@@ -2,7 +2,7 @@
 title: WikiJs
 description: Un jolie wiki autohébergé !
 published: true
-date: 2024-05-28T12:34:52.036Z
+date: 2024-05-28T12:36:42.288Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T12:00:20.028Z
@@ -130,3 +130,7 @@ ssh-keygen -t rsa -b 4096
 	- Password: Vide.
 	- Default Author Email: **Votre adresse e-mail GIT**.
 	- Default Author Name: **Votre nom d'utilisateur GIT**.
+	- Local Repository Path : Le répertoire de stockage de votre repo.
+> 	Attention ! PAPAMATHI Wiki étant sous docker, mon adresse de stockage du repo est : **./wiki/data/repo**.
+Cela peut changer selon votre configuration.
+{.is-warning}
