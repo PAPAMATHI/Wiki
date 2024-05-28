@@ -1,9 +1,9 @@
 ---
 title: Conteneurisation
-description: 
+description: Utiliser correctement, Docker, Kubernetes, etc..
 published: true
-date: 2024-05-28T11:41:03.252Z
-tags: contenerisation
+date: 2024-05-28T11:41:59.185Z
+tags: 
 editor: markdown
 dateCreated: 2024-05-28T11:40:06.222Z
 ---
