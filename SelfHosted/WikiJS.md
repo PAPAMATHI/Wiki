@@ -2,7 +2,7 @@
 title: WikiJs
 description: Un jolie wiki autohébergé !
 published: true
-date: 2024-05-28T12:15:40.424Z
+date: 2024-05-28T12:17:03.206Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T12:00:20.028Z
@@ -93,3 +93,11 @@ Il existe plusieurs solutions pour exécuter Wiki.js en tant que service en arri
 
 > Vous pouvez consultez les logs du service avec `journalctl -u wiki`
 {.is-info}
+
+
+# Configuration
+## Configurer Git
+Pour l'activer il vous suffit de vous rendre dans la catégorie stockage pour activer Git.
+![image_2021-10-03_180716.png](/images/selfhosted/wikijs/gitwikijs1.png)
+Une fois activé, il ne vous reste plus qu'à rentrer vos informations de connexions à votre git !
+
