@@ -2,7 +2,7 @@
 title: Conteneurisation
 description: Utiliser correctement, Docker, Kubernetes, etc..
 published: true
-date: 2024-06-03T08:01:57.697Z
+date: 2024-06-03T08:02:13.182Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T11:40:06.222Z
@@ -12,5 +12,5 @@ dateCreated: 2024-05-28T11:40:06.222Z
 
 # SelfHosted
 
-- [📖 Docker 🚧 *Une documentation en ligne*](/SelfHosted/WikiJS)
+- [📖 Docker 🚧 *Comment installer et configurer Docker*](/SelfHosted/WikiJS)
 {.links-list}
