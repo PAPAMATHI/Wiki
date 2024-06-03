@@ -2,7 +2,7 @@
 title: Conteneurisation
 description: Utiliser correctement, Docker, Kubernetes, etc..
 published: true
-date: 2024-06-03T08:08:10.138Z
+date: 2024-06-03T08:08:33.464Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T11:40:06.222Z
@@ -12,5 +12,5 @@ dateCreated: 2024-05-28T11:40:06.222Z
 
 # Conteneurisation
 
-- [📖 Docker 🚧 *Comment installer et configurer Docker*](/Conteneurisation/Docker/guide-installation)
+- [🐳 Docker 🚧 *Comment installer et configurer Docker*](/Conteneurisation/Docker/guide-installation)
 {.links-list}
