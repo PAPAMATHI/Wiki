@@ -2,13 +2,13 @@
 title: Conteneurisation
 description: Utiliser correctement, Docker, Kubernetes, etc..
 published: true
-date: 2024-06-03T08:08:33.464Z
+date: 2024-06-03T08:09:49.257Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-28T11:40:06.222Z
 ---
 
-![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2560px-Docker_%28container_engine%29_logo.svg.png =400x)
+![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2560px-Docker_%28container_engine%29_logo.svg.png =400x){style="margin: 0 auto"}
 
 # Conteneurisation
 
