@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:46:35.749Z
+date: 2024-06-04T07:54:22.440Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -47,3 +47,81 @@ ajouter d’autres composants :
 souvent les systèmes les utilisant sour le nom GNU/Linux.
 - C’est le but des distributions que de compléter le noyau pour aboutir à un
 système complet.
+
+## Distributions
+Il existe de très nombreuses distributions Linux. Les plus connues sont :
+AlmaLinux
+Arch Linux
+CentOS
+Debian
+Fedora
+Gentoo
+Linux Mint
+Mageia
+openSUSE
+Red Hat Enterprise Linux
+Rocky Linux
+Slackware
+SUSE Linux Enterprise
+Ubuntu
+
+les liens : 
+https://almalinux.org/
+https://fr.wikipedia.org/wiki/AlmaLinux
+https://www.archlinux.org/
+https://fr.wikipedia.org/wiki/Arch_Linux
+https://www.centos.org/
+https://fr.wikipedia.org/wiki/CentOS
+https://www.debian.org/
+https://fr.wikipedia.org/wiki/Debian
+https://www.fedoraproject.org/
+https://fr.wikipedia.org/wiki/Fedora_(Linux)
+https://www.gentoo.org/
+https://fr.wikipedia.org/wiki/Gentoo_Linux
+https://www.linuxmint.com/
+https://fr.wikipedia.org/wiki/Linux_Mint
+
+# Une session
+## Ouverture de session
+Avant de pouvoir utiliser un ordinateur, il est nécessaire d’ouvrir une session, sur
+un terminal directement relié à cet ordinateur ou par l’intermédiaire du réseau :
+
+Ouverture de session (mode texte) :
+![login-term.png](/images/linux/login-term.png)
+
+Ouverture de session (mode graphique) : 
+![login-graph.png](/images/linux/login-graph.png)
+
+
+## La commande MAN
+### Principe 
+
+La commande man affiche le manuel de la commande indiquée en argument :
+$ man bash
+L’affichage du manuel est réalisé au moyen de la commande less.
+Les pages de manuel se trouvent dans le répertoire /usr/share/man.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
