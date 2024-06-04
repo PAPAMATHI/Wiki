@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:12:18.040Z
+date: 2024-06-04T13:13:31.177Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -92,7 +92,7 @@ Ouverture de session (mode texte) :
 Ouverture de session (mode graphique) : 
 ![login-graph.png](/images/linux/login-graph.png)
 
-
+# Les fichiers et les répertoires
 ## La commande MAN
 ### Principe 
 
@@ -146,6 +146,8 @@ Help options:
 -?, --help Show this help message
 --usage Display brief usage message
 ```
+
+
 
 
 
