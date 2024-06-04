@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:58:09.227Z
+date: 2024-06-04T07:59:39.711Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -121,8 +121,7 @@ peut être nécessaire d’indiquer la section souhaitée :
 $ man 5 passwd
 ```
 
-
-
+### Recherche dans les pages de manuel
 
 
 
