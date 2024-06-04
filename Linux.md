@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:54:22.440Z
+date: 2024-06-04T07:54:54.698Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -97,9 +97,11 @@ Ouverture de session (mode graphique) :
 ### Principe 
 
 La commande man affiche le manuel de la commande indiquée en argument :
+```bash
 $ man bash
-L’affichage du manuel est réalisé au moyen de la commande less.
-Les pages de manuel se trouvent dans le répertoire /usr/share/man.
+```
+L’affichage du manuel est réalisé au moyen de la commande **less**.
+Les pages de manuel se trouvent dans le répertoire **/usr/share/man**.
 
 
 
