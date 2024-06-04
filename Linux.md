@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:11:36.826Z
+date: 2024-06-04T13:12:18.040Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -133,9 +133,19 @@ $ man -k password
 $ apropos password
 ```
 
+### l'option --help
 
-
-
+De nombreuses commandes disposent d’une option --help destinée à afficher
+une courte documentation :
+```bash
+$ usleep --help
+Usage: usleep [microseconds]
+-v, --version Display the version of this program, and exit
+-o, --oot oot says hey!
+Help options:
+-?, --help Show this help message
+--usage Display brief usage message
+```
 
 
 
