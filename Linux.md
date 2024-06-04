@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:17:25.360Z
+date: 2024-06-04T13:21:12.389Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -186,7 +186,20 @@ total 1056
 -rw-r--r--. 1 root root 1518 10 sept. 2018 aliases
 [...]```
 
-
+-R (recursive) affiche le contenu des répertoires de manière récursive :
+```bash
+$ ls
+rep toto.txt
+```
+```bash
+$ ls -R
+.:
+rep toto.txt
+./rep:
+tata.txt
+```
+La commande tree offre une alternative intéressante pour l’affichage récursif du
+contenu d’un ou de plusieurs répertoires.
 
 
 
