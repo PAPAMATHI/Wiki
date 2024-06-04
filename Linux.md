@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:14:36.097Z
+date: 2024-06-04T13:14:51.712Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -154,7 +154,9 @@ Signifie : list segments (nom hérité de Multics).
 Affiche :
 - la liste des fichiers du répertoire courant (sans argument)
 - des informations concernant les fichiers ou répertoires en arguments
-Ne pas confondre avec la commande sl (installez le paquet sl et essayez-la
+> Ne pas confondre avec la commande sl (installez le paquet sl et essayez-la
+{.is-warning}
+
 
 
 
