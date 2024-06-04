@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:14:51.712Z
+date: 2024-06-04T13:16:08.285Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -157,9 +157,21 @@ Affiche :
 > Ne pas confondre avec la commande sl (installez le paquet sl et essayez-la
 {.is-warning}
 
+### Options
 
+-l (long) génère un affichage long :
+```bash
+$ ls -l /bin/bash
+-rwxr-xr-x. 1 root root 960384 5 mars 2015 /bin/bash
+```
+Il existe un alias ll pour ls -l dans la configuration par défaut de l’interpréteur
+de commandes de certaines distributions.
 
-
+-h (human readable) affiche les tailles des fichiers avec l’unité la mieux adaptée :
+```bash
+$ ls -lh /bin/bash
+-rwxr-xr-x. 1 root root 938K 5 mars 2015 /bin/bash
+```
 
 
 
