@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:59:39.711Z
+date: 2024-06-04T08:04:02.651Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -123,6 +123,15 @@ $ man 5 passwd
 
 ### Recherche dans les pages de manuel
 
+- L'option -k (ou --apropos) permet d'afficher quelles pages de manuel contiennent l'expression indiquée dans leur nom ou leur description :
+```bash
+$ man -k password
+```
+
+- La commande apropos est équivalente :
+```bash
+$ apropos password
+```
 
 
 
