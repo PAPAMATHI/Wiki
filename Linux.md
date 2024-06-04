@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:54:54.698Z
+date: 2024-06-04T07:57:58.084Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -103,8 +103,23 @@ $ man bash
 L’affichage du manuel est réalisé au moyen de la commande **less**.
 Les pages de manuel se trouvent dans le répertoire **/usr/share/man**.
 
+### Les sections
+Les pages de manuel sont organisées en sections :
+1. programmes exécutables ou commandes de l’interpréteur de commandes (shell)
+2. appels système (fonctions fournies par le noyau)
+3. appels de bibliothèque (fonctions fournies par les bibliothèques des programmes)
+4. fichiers spéciaux (situés généralement dans /dev)
+5. formats des fichiers et conventions (par exemple /etc/passwd)
+6. jeux
+7. divers
+8. commandes de gestion du système (généralement destinées au super-utilisateur)
+9. sous-programmes du noyau
 
-
+Lorsque des pages de manuel homonymes existent dans plusieurs sections, il
+peut être nécessaire d’indiquer la section souhaitée :
+```bash
+$ man 5 passwd
+```
 
 
 
