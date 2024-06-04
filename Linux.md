@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:21:12.389Z
+date: 2024-06-04T13:23:10.386Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -201,10 +201,21 @@ tata.txt
 La commande tree offre une alternative intéressante pour l’affichage récursif du
 contenu d’un ou de plusieurs répertoires.
 
+## La commande CP
+### Principe
 
-
-
-
-
+Signifie : copy.
+Avec deux fichiers ordinaires en arguments, la commande cp copie le contenu du
+premier dans le second :
+```
+$ cp toto tata
+```
+Si le second fichier n’existe pas, il est créé. S’il existe déjà, il est écrasé.
+Avec deux arguments ou plus, dont le dernier est un répertoire existant et les
+autres des fichiers ordinaires, la commande cp copie ces fichiers dans le
+répertoire, sous les mêmes noms :
+```
+$ cp toto tata rep
+```
 
 
