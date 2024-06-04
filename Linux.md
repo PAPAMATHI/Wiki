@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:16:08.285Z
+date: 2024-06-04T13:17:12.913Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -172,6 +172,19 @@ de commandes de certaines distributions.
 $ ls -lh /bin/bash
 -rwxr-xr-x. 1 root root 938K 5 mars 2015 /bin/bash
 ```
+-d (directory) affiche des informations au sujet des répertoires eux-mêmes, pas des
+fichiers qu’ils contiennent :
+```bash
+$ ls -ld /etc
+drwxr-xr-x. 79 root root 8192 20 févr. 10:40 /etc
+```
+
+```bash
+$ ls -l /etc
+total 1056
+-rw-r--r--. 1 root root 16 20 janv. 20:45 adjtime
+-rw-r--r--. 1 root root 1518 10 sept. 2018 aliases
+[...]```
 
 
 
