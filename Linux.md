@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T07:57:58.084Z
+date: 2024-06-04T07:58:09.227Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
