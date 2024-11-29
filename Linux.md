@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-11-29T09:55:28.308Z
+date: 2024-11-29T09:59:35.151Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -267,3 +267,22 @@ $ mv toto tata rep1 rep2
 $ mv -i toto tata
 mv : voulez-vous écraser « tata » ?
 ```
+## La commande RM
+### Principe
+- Signifie : remove.
+- La commande **RM** permet de supprimer les fichiers ordinaires en arguments :
+```bash
+$ rm toto tata titi
+```
+### Options
+**-i** (interactive) demande confirmation avant chaque suppression :
+```bash
+$ rm -i toto
+tm : supprimer fichier " toto " ?
+```
+
+**-r** (recursive) permet de supprimer récursivement des répertoires avec tout leur contenu en plus des fichiers ordinaires :
+```bash
+$ rm -r toto rep
+```
+
