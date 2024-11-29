@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-11-29T09:28:13.390Z
+date: 2024-11-29T09:55:28.308Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -230,5 +230,40 @@ $ cp toto tata rep
 - Pour le renommage, la commande **mv** s'utilise toujours avec deux arguments :
 	- ancien nom.
   - nouveau nom.
+- Le premier argument peut être un fichier ordinaire, auquel cas le second argument doit être inexistant ou être un fichier ordinaire (qui sera alors écrasé) :
 
+**Renommage d'un fichier ordinaire :**
+```bash
+$ mv toto tata
+```
 
+**Renommage et déplacement d'un fichier ordinaire :**
+```bash
+$ mv toto rep/tata
+```
+
+- Le premier argument peut être un répertoire, auquel cas le second argument doit être inexistant :
+
+**Renommage d'un répertoire**
+```bash
+$ mv rep1 rep1
+```
+
+**Renommage et déplacement d'un répertoire**
+```bash
+$ mv rep1 rep2/rep3
+```
+
+### Déplacement
+- Pour le déplacement sans renommage, la commande **mv** s'utilise toujours avec deux arguments ou plus, dont le dernier doit être un répertoire existant :
+
+```bash
+$ mv toto tata rep1 rep2
+```
+
+### Option
+**-i** (interactive) demande confirmation en cas d'écrasement :
+```bash 
+$ mv -i toto tata
+mv : voulez-vous écraser « tata » ?
+```
