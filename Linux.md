@@ -2,7 +2,7 @@
 title: Linux
 description: Tout ce qu'il faut savoir sur linux
 published: true
-date: 2024-06-04T13:23:10.386Z
+date: 2024-11-29T09:28:13.390Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-04T07:40:31.891Z
@@ -217,5 +217,18 @@ répertoire, sous les mêmes noms :
 ```
 $ cp toto tata rep
 ```
+
+## La commande MV
+### Principe
+- La commande **mv** signifie **"move"**.
+- La commande **mv** regroupe deux fonctions :
+	- Déplacement.
+  - Renommage.
+  
+### Renommage
+- Un renommage peut toujours s'accompagner d'un déplacement.
+- Pour le renommage, la commande **mv** s'utilise toujours avec deux arguments :
+	- ancien nom.
+  - nouveau nom.
 
 
